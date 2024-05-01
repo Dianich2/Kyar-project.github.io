@@ -1,0 +1,146 @@
+@import 'color_and_font';
+body{
+    font-weight: bold;
+    font-family: 'Inter';
+    text-decoration-skip-ink:none;
+    background-color: $browcolor;
+    div.content{
+        background-color: white;
+        margin-left: 8%;
+        width: 85%;
+        height: 70%;
+        img.logo{
+            width: 100%;
+            height: 70%;
+        }
+        nav{
+            background-color: $goldcolor;
+            display: flex;
+            margin-top: -2%;
+            div.burger{
+                display: flex;
+                width: 25px;
+                height: 25px;
+                margin: 10px 0 0 10px;
+                align-items: center;
+                span{
+                    transform: scale(1);
+                    height: 2px;
+                    width: 100%;
+                    background-color: black;
+                    &::before, &::after{
+                        position:absolute;
+                        height: 2px;
+                        width: 100%;
+                        background-color: black;
+                        content: ' ';
+                    }
+                    &::before{
+                        top:-5px;
+                    }
+                    &::after{
+                        top:5px;
+                    }
+                }
+    
+                &.active{
+                    span{
+                    background-color: $goldcolor;
+                        &::before{
+                        transform: rotate(-45deg) translate(-7px, 7px);
+                        }
+                        &::after{
+                        transform: rotate(45deg) translate(0px, 0px);
+                        }
+                    }
+                }
+            }
+            ul{
+                display: none;
+            }
+            &.open{
+                ul{
+                    width: 100%;
+                    display: flex;
+                    list-style-type: none;
+                    flex-direction: column;
+                    padding: 0 0 0 0;
+                    li{
+                        width:100%;
+                        text-align: center;
+                        padding: 10px 0 10px 0;
+                        a{
+                            &:hover{
+                                background-color: $lightbrown;
+                            }
+                            color:$browcolor;
+                            font-size: 4.5vw;
+                        }
+                    }
+                }
+            }
+            
+        }
+        div.firstcatalog,.secondcontent{
+            display: none;
+        }
+        img.sidelogo{
+            display: none;
+        }
+        footer{
+            width: 100%;
+            height: 12%;
+            background-color: $darkbrown;
+            color: $goldcolor;
+            margin: 20vw 0 0 0;
+            ul{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                list-style-type: none;
+                text-align: center;
+                justify-content: space-around;
+                &.men{
+                    padding-left: 0px;
+                    width: 100%;
+                    display: flex;
+                    li{
+                        width: 50%;
+                        font-size: 3.5vw;
+                        margin-top: 3vw;
+                        &.name{
+                            display: none;
+                        }
+                        p{
+                            font-size: 2.5vw;
+                            padding: 10px 0 10px 0;
+                        }
+                        img{
+                            width: 12%;
+                            height: 12%;
+                            padding: 0 0 0 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 400px) {
+    body{
+        div.content{
+            nav{
+                div.burger{
+                    width: 15px;
+                    span{
+                        height: 1px;
+                        &::after, &::before{
+                            height: 1px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

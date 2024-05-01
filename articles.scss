@@ -1,0 +1,90 @@
+@import 'color_and_font';
+body{
+    div.content{
+        color: $browcolor;
+        h3{
+            &.name{
+                float: right;
+                width: 70%;
+                font-size: 2.7vw;
+            }
+        }
+        div.text{
+            float: right;
+            width: 75%;
+            a{
+                color: $browcolor;
+                text-decoration: none;
+                width: 15vw;
+                display: flex;
+                flex-direction:row;
+                width: 100%;
+                p{
+                    margin: 5vw 0 5vw 2vw ;
+                    font-size: 2.1vw;
+                    width: 60%;
+                }
+                img{
+                    width: 13vw;
+                    height: 12vw;
+                    border-radius: 30px;
+                    margin: 0 0 3vw 2vw;
+                }
+            }
+            
+        }
+    }
+}
+@media (max-width:1000px){
+    body{
+        div.content{
+            h3{
+                &.name{
+                    font-size: 3.5vw;
+                }
+            }
+            div.text{
+                a{
+                    p{
+                        font-size: 2.5vw;
+                        margin-bottom: 6vw;
+                    }
+                    img{
+                        margin-bottom: 5vw;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+@media (max-width:786px){
+    body{
+        div.content{
+            color: $browcolor;
+            h3{
+                &.name{
+                    float: none;
+                    width: 80%;
+                    margin-left: 2vw;
+                    font-size: 2.7vw;
+                }
+            }
+            div.text{
+                float: none;
+                width: 100%;
+                a{
+                    p{
+                        font-size: 3.5vw;
+                        margin: 3vw 3vw 3vw 2vw;
+                        line-height: 140%;
+                    }
+                    img{
+                        width: 18vw;
+                        height: 16vw;
+                    }
+                }
+            }
+        }
+    }   
+}
