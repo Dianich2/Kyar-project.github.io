@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Inter";
+  src: url("Inter.ttc") format("ttc");
+}
+body div.content div.error {
+  float: right;
+  width: 75%;
+  color: black;
+  text-align: center;
+}
+body div.content div.error p.text1 {
+  font-size: 15vw;
+  margin: 12vw 0 0 0;
+}
+body div.content div.error p.text2 {
+  font-size: 2.3vw;
+  width: 70%;
+  margin: 0 0 0 10vw;
+}
+body div.content div.error img {
+  margin: 6vw 0 0 4vw;
+  width: 25vw;
+}
+
+@media (max-width: 786px) {
+  body div.content div.error {
+    float: none;
+    width: 100%;
+    color: black;
+    text-align: center;
+  }
+  body div.content div.error p.text1 {
+    font-size: 25vw;
+    margin: 12vw 0 0 0;
+  }
+  body div.content div.error p.text2 {
+    font-size: 4.5vw;
+    width: 100%;
+    margin: 0 0 0 0vw;
+  }
+  body div.content div.error img {
+    margin: 6vw 0 0 5vw;
+    width: 40vw;
+  }
+}/*# sourceMappingURL=errorfirst.css.map */

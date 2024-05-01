@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Inter";
+  src: url("Inter.ttc") format("ttc");
+}
+body div.content {
+  color: #503E02;
+}
+body div.content h3.name {
+  float: right;
+  width: 70%;
+  font-size: 2.7vw;
+}
+body div.content div.text {
+  float: right;
+  width: 75%;
+}
+body div.content div.text a {
+  color: #503E02;
+  text-decoration: none;
+  width: 15vw;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+body div.content div.text a p {
+  margin: 5vw 0 5vw 2vw;
+  font-size: 2.1vw;
+  width: 60%;
+}
+body div.content div.text a img {
+  width: 13vw;
+  height: 12vw;
+  border-radius: 30px;
+  margin: 0 0 3vw 2vw;
+}
+
+@media (max-width: 1000px) {
+  body div.content h3.name {
+    font-size: 3.5vw;
+  }
+  body div.content div.text a p {
+    font-size: 2.5vw;
+    margin-bottom: 6vw;
+  }
+  body div.content div.text a img {
+    margin-bottom: 5vw;
+  }
+}
+@media (max-width: 786px) {
+  body div.content {
+    color: #503E02;
+  }
+  body div.content h3.name {
+    float: none;
+    width: 80%;
+    margin-left: 2vw;
+    font-size: 2.7vw;
+  }
+  body div.content div.text {
+    float: none;
+    width: 100%;
+  }
+  body div.content div.text a p {
+    font-size: 3.5vw;
+    margin: 3vw 3vw 3vw 2vw;
+    line-height: 140%;
+  }
+  body div.content div.text a img {
+    width: 18vw;
+    height: 16vw;
+  }
+}/*# sourceMappingURL=articlesfirst.css.map */

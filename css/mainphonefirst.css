@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "Inter";
+  src: url("Inter.ttc") format("ttc");
+}
+body {
+  font-weight: bold;
+  font-family: "Inter";
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  background-color: #503E02;
+}
+body div.content {
+  background-color: white;
+  margin-left: 8%;
+  width: 85%;
+  height: 70%;
+}
+body div.content img.logo {
+  width: 100%;
+  height: 70%;
+}
+body div.content nav {
+  background-color: #E0C84D;
+  display: flex;
+  margin-top: -2%;
+}
+body div.content nav div.burger {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  margin: 10px 0 0 10px;
+  align-items: center;
+}
+body div.content nav div.burger span {
+  transform: scale(1);
+  height: 2px;
+  width: 100%;
+  background-color: black;
+}
+body div.content nav div.burger span::before, body div.content nav div.burger span::after {
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  content: " ";
+}
+body div.content nav div.burger span::before {
+  top: -5px;
+}
+body div.content nav div.burger span::after {
+  top: 5px;
+}
+body div.content nav div.burger.active span {
+  background-color: #E0C84D;
+}
+body div.content nav div.burger.active span::before {
+  transform: rotate(-45deg) translate(-7px, 7px);
+}
+body div.content nav div.burger.active span::after {
+  transform: rotate(45deg) translate(0px, 0px);
+}
+body div.content nav ul {
+  display: none;
+}
+body div.content nav.open ul {
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  padding: 0 0 0 0;
+}
+body div.content nav.open ul li {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+body div.content nav.open ul li a {
+  color: #503E02;
+  font-size: 4.5vw;
+}
+body div.content nav.open ul li a:hover {
+  background-color: #B99514;
+}
+body div.content div.firstcatalog, body div.content .secondcontent {
+  display: none;
+}
+body div.content img.sidelogo {
+  display: none;
+}
+body div.content footer {
+  width: 100%;
+  height: 12%;
+  background-color: #342800;
+  color: #E0C84D;
+  margin: 20vw 0 0 0;
+}
+body div.content footer ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style-type: none;
+  text-align: center;
+  justify-content: space-around;
+}
+body div.content footer ul.men {
+  padding-left: 0px;
+  width: 100%;
+  display: flex;
+}
+body div.content footer ul.men li {
+  width: 50%;
+  font-size: 3.5vw;
+  margin-top: 3vw;
+}
+body div.content footer ul.men li.name {
+  display: none;
+}
+body div.content footer ul.men li p {
+  font-size: 2.5vw;
+  padding: 10px 0 10px 0;
+}
+body div.content footer ul.men li img {
+  width: 12%;
+  height: 12%;
+  padding: 0 0 0 5px;
+}
+
+@media (max-width: 400px) {
+  body div.content nav div.burger {
+    width: 15px;
+  }
+  body div.content nav div.burger span {
+    height: 1px;
+  }
+  body div.content nav div.burger span::after, body div.content nav div.burger span::before {
+    height: 1px;
+  }
+}/*# sourceMappingURL=mainphonefirst.css.map */

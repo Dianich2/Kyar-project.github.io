@@ -1,0 +1,174 @@
+@font-face {
+  font-family: "Inter";
+  src: url("Inter.ttc") format("ttc");
+}
+body div.content {
+  color: #503E02;
+}
+body div.content h3.name {
+  float: right;
+  width: 72%;
+  font-size: 1.8vw;
+  background-color: #E0C84D;
+  border-radius: 10px;
+  text-align: center;
+  margin-right: 1vw;
+}
+body div.content div.cont {
+  width: 60vw;
+  flex-wrap: wrap;
+  height: 70vw;
+  float: right;
+  margin: 0 0 0 0;
+}
+body div.content div.cont img {
+  width: 30vw;
+  height: 22vw;
+  margin: 2vw 0 2vw 2.5vw;
+}
+body div.content div.cont div.dop {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin: -28vw 0 0 5vw;
+  align-items: center;
+}
+body div.content div.cont div.dop h5 {
+  width: 25vw;
+  float: right;
+  text-align: center;
+  margin: 1.5vw 0 1.5vw 0;
+  color: #503E02;
+  font-size: 2vw;
+}
+body div.content div.cont div.dop img {
+  width: 12vw;
+  height: 8vw;
+  float: right;
+  margin: 0;
+}
+body div.content div.cont div.podkatalog {
+  width: 55vw;
+  height: 45vw;
+  background-color: #E0C84D;
+  border-radius: 30px;
+  margin: 1vw 0 0 2vw;
+}
+body div.content div.cont div.podkatalog h3.ha {
+  font-size: 2.5vw;
+  margin: 0.5vw 0 0 2vw;
+}
+body div.content div.cont div.podkatalog p {
+  display: flex;
+  font-size: 1.6vw;
+  line-height: 220%;
+  margin: 1vw 0 0 1vw;
+  width: 30vw;
+}
+body div.content div.cont div.podkatalog p.two {
+  float: right;
+  margin-top: -39vw;
+}
+
+@media (max-width: 786px) {
+  body div.content {
+    color: #503E02;
+  }
+  body div.content h3.name {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    font-size: 3.2vw;
+  }
+  body div.content div.cont {
+    width: 80vw;
+    flex-wrap: wrap;
+    height: 80vw;
+    float: none;
+    margin: 0 0 0 0;
+  }
+  body div.content div.cont img {
+    width: 30vw;
+    height: 22vw;
+    margin: 2vw 0 2vw 2.5vw;
+  }
+  body div.content div.cont div.dop {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin: 0vw 8vw 0 0vw;
+    align-items: center;
+  }
+  body div.content div.cont div.dop h5 {
+    width: 40vw;
+    float: right;
+    text-align: center;
+    margin: 1.5vw 0 1.5vw 0;
+    color: #503E02;
+    font-size: 2.5vw;
+  }
+  body div.content div.cont div.dop img {
+    width: 14vw;
+    height: 9vw;
+    float: right;
+    margin: 0;
+  }
+  body div.content div.cont div.podkatalog {
+    width: 75vw;
+    height: 50vw;
+    background-color: #E0C84D;
+    border-radius: 20px;
+    margin: 4vw 0 0 3vw;
+  }
+  body div.content div.cont div.podkatalog h3.ha {
+    font-size: 2.5vw;
+    margin: 2vw 0 0 2vw;
+  }
+  body div.content div.cont div.podkatalog p {
+    display: flex;
+    font-size: 1.8vw;
+    line-height: 220%;
+    margin: 1vw 0 0 1vw;
+    width: 30vw;
+  }
+  body div.content div.cont div.podkatalog p.two {
+    float: right;
+    margin-top: -45vw;
+  }
+}
+@media (max-width: 450px) {
+  body div.content {
+    color: #503E02;
+  }
+  body div.content div.cont {
+    margin-left: 0;
+    justify-content: space-around;
+  }
+  body div.content div.cont div.dop h5 {
+    font-size: 3vw;
+  }
+  body div.content div.cont div.podkatalog {
+    width: 75vw;
+    height: 50vw;
+    background-color: #E0C84D;
+    border-radius: 10px;
+    margin: 5vw 0 0 1vw;
+  }
+  body div.content div.cont div.podkatalog h3.ha {
+    font-size: 2.5vw;
+    margin: 2vw 0 0 2vw;
+  }
+  body div.content div.cont div.podkatalog p {
+    display: flex;
+    font-size: 1.8vw;
+    line-height: 220%;
+    margin: 1vw 0 0 1vw;
+    width: 30vw;
+  }
+  body div.content div.cont div.podkatalog p.two {
+    float: right;
+    margin-top: -45vw;
+  }
+}/*# sourceMappingURL=ZUBRfirst.css.map */

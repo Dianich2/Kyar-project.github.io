@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Inter";
+  src: url("Inter.ttc") format("ttc");
+}
+body div.content {
+  color: #503E02;
+}
+body div.content h3.name {
+  float: right;
+  width: 70%;
+  font-size: 2.7vw;
+}
+body div.content div.text {
+  float: right;
+  width: 36%;
+}
+body div.content div.text p {
+  margin: 3vw 3vw 3vw 2vw;
+  font-size: 1.8vw;
+}
+body div.content div.text p img {
+  width: 2vw;
+  height: 2vw;
+  float: left;
+}
+
+@media (max-width: 1000px) {
+  body div.content h3.name {
+    font-size: 3.5vw;
+  }
+  body div.content div.text p {
+    font-size: 2.2vw;
+  }
+}
+@media (max-width: 786px) {
+  body div.content {
+    color: #503E02;
+  }
+  body div.content h3.name {
+    float: none;
+    width: 80%;
+    margin-left: 2vw;
+    font-size: 2.7vw;
+  }
+  body div.content div.text {
+    float: none;
+    width: 100%;
+  }
+  body div.content div.text p {
+    font-size: 2.5vw;
+    margin: 3vw 3vw 3vw 2vw;
+    line-height: 140%;
+  }
+  body div.content div.text p img {
+    width: 3vw;
+    height: 3vw;
+    float: left;
+  }
+}
+@media (max-width: 550px) {
+  body div.content h3 name {
+    font-size: 3.7vw;
+  }
+  body div.content div.text p {
+    font-size: 3.2vw;
+  }
+}/*# sourceMappingURL=contactsfirst.css.map */
